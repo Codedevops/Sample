@@ -1,0 +1,21 @@
+body {
+  background-image: linear-gradient(to left,black,red);
+}
+ul{
+  background-image: linear-gradient(to left,black,red);
+  color: black;
+  list-style-type:none;
+}
+li{
+  float: left;
+  display:block;
+  text-align:center;
+  padding:20px;
+  font-size:20px;
+  font-style:sans-serif;
+}
+li:hover
+{
+  background-color:black;
+  color:red;
+}
