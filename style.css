@@ -1,21 +1,29 @@
-body {
-  background-image: linear-gradient(to left,black,red);
-}
-ul{
-  background-image: linear-gradient(to left,black,red);
-  color: black;
-  list-style-type:none;
-}
-li{
-  float: left;
-  display:block;
-  text-align:center;
-  padding:20px;
-  font-size:20px;
-  font-style:sans-serif;
-}
-li:hover
+.block1
 {
-  background-color:black;
-  color:red;
+  width: auto;
+  height: 100px;
+  background-image: linear-gradient(to right,grey,black);
+}
+.block1:hover
+{
+  background-image: linear-gradient(to left,grey,black);
+  color: white;
+  transition-duration: 1s;
+  border-top: 100px solid;
+  border-top-color: red;
+}
+
+.block2
+{
+  width: auto;
+  height: 100px;
+  background-image: linear-gradient(to right,blue,black);
+}
+.block2:hover
+{
+  background-image: linear-gradient(to left,blue,black);
+  color: white;
+  transition-duration: 1s;
+  border-top: 100px solid;
+  border-top-color: green;
 }
